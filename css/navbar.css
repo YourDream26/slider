@@ -1,0 +1,72 @@
+#navigation-menu {
+    height: 64px;
+}
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+ 
+    .navbar {
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (min-width:768px) {
+     
+    .nav>li {
+        height: 64px;
+    }
+    
+    .navbar-brand {
+        padding: 25px 15px;
+        height: 62px;
+    }
+    
+    .navbar-nav > li > a {
+      padding-top: 25px;
+      padding-bottom: 19px;
+    }
+}
+
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+  max-height: 350px; 
+}
+
+.navbar {
+    height: 64px;
+}
+
+.navbar-brand {
+    padding: 25px 15px;
+}
+
+.nav>li:hover {
+    background-color: #3389ff;
+}
+
+.navbar-default  {
+    background-color: #d3e2ed;
+}
+
+.navbar-default * {
+    background-color: #d3e2ed;
+}
+
+.btn {
+    margin-top: 11px;    
+}
+
+.navbar-default .form-group *,
+.navbar-default .btn-default {
+    background-color: #f8f8f8;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    background-color: #efefef;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #00adfc;
+}
+
